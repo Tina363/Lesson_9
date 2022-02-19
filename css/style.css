@@ -213,6 +213,7 @@ body {
   text-shadow: 10px -20px 20px #fff;
   margin-bottom: 50px;
   min-height: 50px;
+  visibility: hidden;
 }
 
 
