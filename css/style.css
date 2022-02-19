@@ -120,16 +120,12 @@ body {
   margin-bottom: 30px;
 }
 .game-all {
-  /* visibility: visible; */
   visibility: hidden;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   overflow: hidden;
 }
-/* .game-all:hover + .game-all:nth-child(n+1) {
-  visibility: visible;
-} */
 .game1 {  
   background: url('../img/catty.jpg') 0 0 / cover no-repeat;
   visibility: visible;
@@ -216,6 +212,7 @@ body {
   font-size: 50px;
   text-shadow: 10px -20px 20px #fff;
   margin-bottom: 50px;
+  min-height: 50px;
 }
 
 
