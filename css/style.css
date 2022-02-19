@@ -1,0 +1,233 @@
+@import "null.css";
+
+body {
+  font-family: "Lato", "Arial", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #424551;
+}
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+.container {
+  max-width: 840px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+  padding-top: 100px;
+  margin-bottom: 24px;
+}
+.title {
+  color: #1E212C;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 1.3;
+}
+.main *:last-child {
+  margin-bottom: 0;
+}
+.spans {
+  margin-bottom: 40px;
+}
+.light {
+  display: inline-block;
+  padding-left: 24px;
+  color: #787A80;
+}
+.data {
+  background: url('../img/index/data.svg') 0 center / 14px no-repeat;
+  margin-right: 20px;
+}
+.time {
+  margin-right: 50px;
+  background: url('../img/index/clock.svg') 0 center / 14px no-repeat;
+}
+.socials {
+  display: inline-block;
+  font-weight: 700;
+  background: url('../img/index/in.svg') right center / 17px no-repeat, url('../img/index/twitter.svg') right 30px center / 18px 14px no-repeat, url('../img/index/facebook.svg') right 67px center / 10px 18px no-repeat;
+  padding-right: 94px;
+}
+.image {
+  max-width: 810px;
+  margin-bottom: 60px;
+}
+.image img {
+  width: 100%;
+}
+.text {
+  margin-bottom: 24px;
+}
+.bold {
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 20px;
+  color: #1E212C;
+}
+.cite {
+  margin: 48px 0;
+  padding-left: 58px;
+  background: url('../img/index/braces.svg') 0 0 / 28px 20px no-repeat;
+}
+.list {
+  max-width: 600px;
+  margin-bottom: 24px;
+}
+.item {
+  padding-left: 30px;
+  background: url('../img/index/circle.svg') 0 5px / 16px 15px no-repeat;
+  margin-bottom: 4px;
+}
+.item:last-child {
+  margin-bottom: 0;
+}
+.footer {
+  padding: 63px 0;
+}
+.game-link {
+  display: block;
+  padding: 5px 30px;
+  border-radius: 20px;
+  box-shadow: 10px 20px 30px grey;
+  font-weight: 700;
+  font-size: 50px;
+  max-width: 250px;
+  text-align: center;
+  margin: 20px auto 0;
+}
+.game-link:hover {
+  padding: 5px 40px;
+}
+.game-link:active {
+  box-shadow: 10px 10px 10px grey;
+  padding: 5px 30px;
+}
+/* ==============================Game======================================= */
+
+.game {
+  padding: 50px;
+  width: 800px;
+  background-color: burlywood;
+  min-height: 800px;
+  margin: 0 auto;
+  box-shadow: 10px 10px 20px black;
+  border-radius: 10px;
+}
+.gamer {
+  margin-bottom: 30px;
+}
+.game-all {
+  /* visibility: visible; */
+  visibility: hidden;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/* .game-all:hover + .game-all:nth-child(n+1) {
+  visibility: visible;
+} */
+.game1 {  
+  background: url('../img/catty.jpg') 0 0 / cover no-repeat;
+  visibility: visible;
+}
+.game2 {
+  background: url('../img/alephant.jpg') 0 0 / contain repeat;
+  width: 50%;
+  border-radius: 10px;
+}
+.game1:hover + .game2,
+.game2:hover {
+  visibility: visible;
+}
+.game2:hover + .game3,
+.game3:hover {
+  visibility: visible;
+}
+.game3 {
+  background: url('../img/bear.jpg') 0 0 / cover  no-repeat;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.game3:hover + .game4,
+.game4:hover {
+  visibility: visible;
+}
+.game4 {
+  background: url('../img/cow.png') 0 0 / contain repeat-y;
+  height: 150px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.game4:hover + .game5,
+.game5:hover {
+  visibility: visible;
+}
+.game5 {
+  background: url('../img/dog.jpg') 0 0 / contain repeat-x;
+  width: 50%;
+  margin-left: auto;
+  border-radius: 10px;
+}
+.game5:hover + .game6,
+.game6:hover {
+  visibility: visible;
+}
+.game6 {
+  background: url('../img/rabbit.webp') 0 0 / cover no-repeat;
+  margin-left: auto;
+}
+.game6:hover + .game7,
+.game7:hover {
+  visibility: visible;
+}
+.game7 {
+  background: url('../img/sova.jpg') 0 0 / contain repeat-y;
+  margin-left: auto;
+  height: 200px;
+  border-radius: 10px;
+}
+.game7:hover + .game8,
+.game8:hover {
+  visibility: visible;
+  box-shadow: 3px 3px 10px black;
+}
+.game8 {
+  background: url('../img/like.png') center / 100px no-repeat;
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  border-radius: 20px;
+}
+.game8:hover + .game9,
+.game9:hover {
+  visibility: visible;
+  box-shadow: 3px 3px 10px black;
+}
+.game9 {
+  width: 100%;
+  border-radius: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 50px;
+  text-shadow: 10px -20px 20px #fff;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
