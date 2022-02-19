@@ -61,7 +61,7 @@ body {
   margin-right: 0;
 }
 .social-1 {
-  background: url('../img/index/facebook.svg') center / contain no-repeat;
+  background: url('../img/index/facebook.svg') bottom center / contain no-repeat;
 }
 .social-2 {
   background: url('../img/index/twitter.svg') bottom center / contain no-repeat;
