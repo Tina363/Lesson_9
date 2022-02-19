@@ -99,7 +99,7 @@ body {
   margin: 20px auto 0;
 }
 .game-link:hover {
-  padding: 5px 40px;
+  box-shadow: 20px 30px 20px grey;
 }
 .game-link:active {
   box-shadow: 10px 10px 10px grey;
