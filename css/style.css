@@ -48,9 +48,28 @@ body {
 .socials {
   display: inline-block;
   font-weight: 700;
-  background: url('../img/index/in.svg') right center / 17px no-repeat, url('../img/index/twitter.svg') right 30px center / 18px 14px no-repeat, url('../img/index/facebook.svg') right 67px center / 10px 18px no-repeat;
-  padding-right: 94px;
+  /* padding-right: 94px; */
+  margin-right: 18px;
 }
+.social {
+  display: inline-block;
+  min-width: 18px;
+  min-height: 18px;
+  margin-right: 18px;
+}
+.social:last-child {
+  margin-right: 0;
+}
+.social-1 {
+  background: url('../img/index/facebook.svg') right center / contain no-repeat;
+}
+.social-2 {
+  background: url('../img/index/twitter.svg') bottom center / contain no-repeat;
+}
+.social-3 {
+  background: url('../img/index/in.svg') 0 0 / cover no-repeat;
+}
+
 .image {
   max-width: 810px;
   margin-bottom: 60px;
