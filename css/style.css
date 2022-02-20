@@ -48,7 +48,6 @@ body {
 .socials {
   display: inline-block;
   font-weight: 700;
-  /* padding-right: 94px; */
   margin-right: 18px;
 }
 .social {
@@ -61,7 +60,7 @@ body {
   margin-right: 0;
 }
 .social-1 {
-  background: url('../img/index/facebook.svg') bottom center / contain no-repeat;
+  background: url('../img/index/facebook.svg') center / contain no-repeat;
 }
 .social-2 {
   background: url('../img/index/twitter.svg') bottom center / contain no-repeat;
@@ -69,7 +68,6 @@ body {
 .social-3 {
   background: url('../img/index/in.svg') 0 0 / cover no-repeat;
 }
-
 .image {
   max-width: 810px;
   margin-bottom: 60px;
@@ -87,9 +85,8 @@ body {
   color: #1E212C;
 }
 .cite {
-  margin: 48px 0;
-  padding-left: 58px;
-  background: url('../img/index/braces.svg') 0 0 / 28px 20px no-repeat;
+  padding: 24px 0 24px 58px;
+  background: url('../img/index/braces.svg') 0 26px / 28px 20px no-repeat;
 }
 .list {
   max-width: 600px;
